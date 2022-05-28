@@ -1,3 +1,3 @@
-r=int(input())
-area=r*r*3.14
+radius=int(input())
+area=3.14*radius**2
 print("%.2f"%area)
