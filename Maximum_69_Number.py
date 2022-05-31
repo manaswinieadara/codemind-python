@@ -1,4 +1,4 @@
-def max_69(self,num:int)->int:
-    return str(num).replace('6','9',1)
-n=input()
-print(max_69(1,n))
+def max(self,n:int)->int:
+    return(str(n).replace('6','9',1))
+n=int(input())
+print(max(1,n))
