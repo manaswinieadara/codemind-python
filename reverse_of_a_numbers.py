@@ -1,7 +1,7 @@
-x=int(input())
-a=0
-while(x!=0):
-   h=x%10
-   a=a*10+h
-   x=x//10
-print(a)
+n=int(input())
+reverse=0
+while(n>0):
+    rem=n%10
+    reverse=(reverse*10)+rem
+    n=n//10
+print(reverse)    
